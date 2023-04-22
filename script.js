@@ -65,8 +65,14 @@ function consolidar() {
     for (let v in vetor) {
       soma += vetor[v];
     }
-    let media = (soma / tot);
+    let media = soma / tot;
 
-    cons.innerHTML = `<span>O vetor possui ${tot} elemento(s)<br/>O menor número é: ${vetord[0]}<br/>O maior número é: ${vetord[tot-1]} <br/>A soma dos números do vetor é: ${soma}<br/>A média dos números do vetor é: ${media.toFixed(1)}<br/></span>`;
+    cons.innerHTML = `<span>O vetor possui ${tot} elemento(s)<br/>O menor número é: ${
+      vetord[0]
+    }<br/>O maior número é: ${
+      vetord[tot - 1]
+    } <br/>A soma dos números do vetor é: ${soma}<br/>A média dos números do vetor é: ${media.toFixed(
+      1
+    )}<br/></span>`;
   }
 }
