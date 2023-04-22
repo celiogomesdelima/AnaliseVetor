@@ -1,0 +1,61 @@
+body {
+  font: normal 12pt Helvetica;
+  background-color: rgba(112, 128, 144, 0.7);
+}
+header {
+  color: white;
+  text-align: center;
+}
+section {
+  width: 500px;
+  margin: auto;
+}
+div {
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+input#inum {
+  margin-bottom: 30px;
+}
+#res {
+  font: normal 10pt Helvetica;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.erro {
+  background-color: rgba(255, 0, 0, 0.4);
+  padding: 5px;
+}
+.sucesso {
+  background-color: rgba(0, 255, 0, 0.4);
+  padding: 5px;
+}
+select#iselvet {
+  width: 60px;
+  height: 200px;
+}
+option {
+  font: normal 12pt Helvetica;
+}
+aside {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  background-color: rgba(128, 128, 128, 0.3);
+  width: 300px;
+  height: 180px;
+  padding: 10px;
+  font-weight: bold;
+}
+footer {
+  margin: auto;
+  width: 500px;
+  color: aliceblue;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  font-style: italic;
+  text-align: center;
+}
